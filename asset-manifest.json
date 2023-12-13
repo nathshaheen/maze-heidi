@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maze-heidi/static/css/main.7464211b.css",
-    "main.js": "/maze-heidi/static/js/main.c98839c8.js",
+    "main.js": "/maze-heidi/static/js/main.2fd80198.js",
     "static/js/787.2be2f338.chunk.js": "/maze-heidi/static/js/787.2be2f338.chunk.js",
     "static/media/calendarMusic.mp3": "/maze-heidi/static/media/calendarMusic.00d2b3a920ff0de77458.mp3",
     "static/media/background.PNG": "/maze-heidi/static/media/background.6fd8453e5789723d3de8.PNG",
@@ -13,11 +13,11 @@
     "static/media/calendar-background.PNG": "/maze-heidi/static/media/calendar-background.b4dc153756c1fd063d61.PNG",
     "index.html": "/maze-heidi/index.html",
     "main.7464211b.css.map": "/maze-heidi/static/css/main.7464211b.css.map",
-    "main.c98839c8.js.map": "/maze-heidi/static/js/main.c98839c8.js.map",
+    "main.2fd80198.js.map": "/maze-heidi/static/js/main.2fd80198.js.map",
     "787.2be2f338.chunk.js.map": "/maze-heidi/static/js/787.2be2f338.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7464211b.css",
-    "static/js/main.c98839c8.js"
+    "static/js/main.2fd80198.js"
   ]
 }
