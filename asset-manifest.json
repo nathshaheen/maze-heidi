@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/maze-heidi/static/css/main.3c3e0c8e.css",
+    "main.js": "/maze-heidi/static/js/main.819e363d.js",
+    "static/js/787.2be2f338.chunk.js": "/maze-heidi/static/js/787.2be2f338.chunk.js",
+    "static/media/calendarMusic.mp3": "/maze-heidi/static/media/calendarMusic.37aaa86072a8da272832.mp3",
+    "static/media/background.PNG": "/maze-heidi/static/media/background.6fd8453e5789723d3de8.PNG",
+    "static/media/homeMusic.mp3": "/maze-heidi/static/media/homeMusic.491303bf4cd63f71a477.mp3",
+    "static/media/calendar.PNG": "/maze-heidi/static/media/calendar.88ba40a72e836d90cd81.PNG",
+    "static/media/Kalnia_Expanded-Regular.ttf": "/maze-heidi/static/media/Kalnia_Expanded-Regular.89eed65ca924f017ac68.ttf",
+    "static/media/Kalnia_Expanded-Medium.ttf": "/maze-heidi/static/media/Kalnia_Expanded-Medium.9d455a6c5be1de735245.ttf",
+    "static/media/Kalnia_Expanded-Bold.ttf": "/maze-heidi/static/media/Kalnia_Expanded-Bold.e19b44ab4d36aea0b243.ttf",
+    "static/media/calendar-background.PNG": "/maze-heidi/static/media/calendar-background.b4dc153756c1fd063d61.PNG",
+    "index.html": "/maze-heidi/index.html",
+    "main.3c3e0c8e.css.map": "/maze-heidi/static/css/main.3c3e0c8e.css.map",
+    "main.819e363d.js.map": "/maze-heidi/static/js/main.819e363d.js.map",
+    "787.2be2f338.chunk.js.map": "/maze-heidi/static/js/787.2be2f338.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c3e0c8e.css",
+    "static/js/main.819e363d.js"
+  ]
+}
