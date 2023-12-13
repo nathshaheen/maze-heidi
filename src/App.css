@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'kalnia-regular';
+  src: local('kalnia-regular'), url(./fonts/Kalnia_Expanded-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'kalnia-medium';
+  src: local('kalnia-medium'), url(./fonts/Kalnia_Expanded-Medium.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'kalnia-bold';
+  src: local('kalnia-bold'), url(./fonts/Kalnia_Expanded-Bold.ttf) format('ttf');
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +50,173 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #bc99bc;
+  overflow: hidden;
+}
+
+#home {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#background {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@media (orientation: landscape) {
+  #home {
+    height: 100vh;
+    border-left: #a45cca solid 5px;
+    border-right: #a45cca solid 5px;
+  }
+
+  #background {
+    height: 100%;
+  }
+
+  #notes {
+    bottom: 0;
+  }
+
+  #notes:hover {
+    bottom: 0;
+  }
+}
+
+@media (orientation: portrait) {
+  #home {
+    width: 100vw;
+    border-top: #a45cca solid 5px;
+    border-bottom: #a45cca solid 5px;
+  }
+
+  #background {
+    width: 100%;
+  }
+
+  #notes {
+    bottom: 0.9%;
+  }
+
+  #notes:hover {
+    bottom: 0.9%;
+  }
+}
+
+#notes {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  width: 53%;
+}
+
+#notes:hover {
+  opacity: 1;
+  left: 0;
+  width: 55%
+}
+
+#calendar {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 55%;
+  width: 45%;
+}
+
+#calendar:hover {
+  opacity: 1;
+  top: 0;
+  left: 53%;
+  width: 47%
+}
+
+#calendar-background {
+  width: 100vw;
+  height: 100vh;
+  background-color: #a1a4da;
+  background-image: url("./resources/calendar-background.PNG");
+}
+
+#message {
+  border-top: #a45cca solid 2px;
+  position: absolute;
+  text-align: center;
+  color: #e6e6e6;
+  background-color: #a1a4da;
+  font-family: "kalnia-regular", "serif";
+  font-size: 1rem;
+  bottom: 0;
+  left: 0%;
+  width: 100%;
+}
+
+#center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#card {
+  text-align: center;
+  font-family: "kalnia-regular", serif;
+  color: #e6e6e6;
+  padding: 4rem 2rem;
+  border: #fff solid 0px;
+  border-radius: 1rem;
+  background: #515ea7;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+span {
+  font-family: "kalnia-regular", "serif";
+  font-size: 1rem;
+}
+
+#button {
+  margin: 4rem 0;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background: #454f8c;;
+  border: none;
+  color: #e6e6e6;
+  font-family: "kalnia-regular", "serif";
+  font-size: 1rem;
+}
+
+.button {
+  height: 4rem;
+  margin: 2rem 1rem;
+  border-radius: 1rem;
+  background: #454f8c;;
+  border: none;
+  color: #e6e6e6;
+  font-family: "kalnia-regular", "serif";
+  font-size: 1rem;
+}
+
+.horizontal-center {
+  margin: 2rem 0;
+  display: grid;
+}
+
+h4 {
+  font-family: "kalnia-regular", "serif";
+  font-size: 0.5rem;
+  margin: 0.25rem;
 }
